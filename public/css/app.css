@@ -1,0 +1,39 @@
+* {
+  box-sizing: border-box;
+}
+
+html, body {
+  min-height: 100vh;
+  margin: 0;
+}
+
+header {
+  border-bottom: solid 1px black;
+}
+
+.ContenedorB {
+  width: 300px;
+  float: left;
+  padding: 15px;
+}
+
+.ContenedorC {
+  width: 610px;
+  float: right;
+  padding: 15px;
+  border-left: solid 1px black;
+}
+
+.ContenedorC img{
+  float: right;
+}
+
+.ContenedorD {
+  display:inline-block;
+  padding: 20px;
+}
+
+.ContenedorD img {
+  max-width: 30%;
+  height: auto;
+}
