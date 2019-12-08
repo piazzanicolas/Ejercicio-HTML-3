@@ -2,13 +2,14 @@
   box-sizing: border-box;
 }
 
-html, body {
+body {
   min-height: 100vh;
   margin: 0;
+  width: 1200px;
 }
 
 header {
-  border-bottom: solid 1px black;
+  border-bottom: solid 2px gray;
 }
 
 .ContenedorB {
@@ -17,23 +18,35 @@ header {
   padding: 15px;
 }
 
+.ContenedorB ul{
+  list-style-type: none;
+}
+
 .ContenedorC {
   width: 610px;
   float: right;
   padding: 15px;
-  border-left: solid 1px black;
+  border-left: solid 2px gray;
+  margin-right: 200px;
+  margin-top: 20px;
 }
 
 .ContenedorC img{
   float: right;
 }
 
-.ContenedorD {
+footer {
   display:inline-block;
   padding: 20px;
+  background-color: gray;
 }
 
-.ContenedorD img {
+footer img {
   max-width: 30%;
   height: auto;
+}
+
+.redes{
+  float:right;
+  color: white;
 }

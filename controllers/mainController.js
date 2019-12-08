@@ -13,6 +13,10 @@ const controller = {
 		let html = readHTML('index');
 		res.send(html);
 	},
+	contacto: (req, res) => {
+		let html = readHTML('contacto');
+		res.send(html);
+	}
 };
 
 module.exports = controller
